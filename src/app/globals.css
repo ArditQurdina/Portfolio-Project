@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-1.5; /* Set the scrollbar width */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent; /* Transparent scrollbar track */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-green-400 rounded-full; /* Green-400 color and rounded edges */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-green-600; /* Darker green on hover */
+  }
+
+  .word-spacing-wider {
+    word-spacing: 0.20em;
+  }
+}
+

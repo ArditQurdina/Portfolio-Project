@@ -38,7 +38,7 @@ const Resume = () => {
                 {activeSection === "experience" && (
                 <div className="">
                     <div className={`${style.whiteColor} text-3xl mb-[30px]`}>My Experience</div>
-                    <div className="text-gray-400 mb-[30px]">"I’ve worked on a range of projects, starting with basic web development tasks and gradually taking on more complex challenges, all while collaborating with teams to deliver quality results!"</div>
+                    <div className="text-gray-400 mb-[30px]">I have worked on a range of projects, starting with basic web development tasks and gradually taking on more complex challenges, all while collaborating with teams to deliver quality results!</div>
                     <div className="grid grid-cols-2 gap-8 overflo h-[340px] custom-scrollbar">
                         <div className={`${style.ExperienceParentElement}`}>
                             <div className={`text-green-400 mb-2`}>Jun 2022 - Present</div>
@@ -53,12 +53,12 @@ const Resume = () => {
                         <div className={`${style.ExperienceParentElement}`}>
                             <div className={`text-green-400 mb-2`}>Jan 2020 - Mar 2020</div>
                             <div className={`${style.whiteColor} text-lg mb-4`}>Traffic Enginner Intern</div>
-                            <div className="text-gray-400">Vehicle Technical Inspection "Nesim Bakija"</div>
+                            <div className="text-gray-400">Vehicle Technical Inspection Nesim Bakija</div>
                         </div>
                         <div className={`${style.ExperienceParentElement}`}>
                             <div className={`text-green-400 mb-2`}>Dec 2019 - Jan 2020</div>
                             <div className={`${style.whiteColor} text-lg mb-4`}>Traffic Enginner Intern</div>
-                            <div className="text-gray-400">Vehicle Technical Inspection "Nesim Bakija"</div>
+                            <div className="text-gray-400">Vehicle Technical Inspection Nesim Bakija</div>
                         </div>
                     </div>
                 </div>
